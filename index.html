@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ZniYu Lin</title>
+    <!-- plugins -->
+    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/plugins/owl.theme.default.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    Hello World
+    <div class="wrapper">
+        <!-- index -->
+        <div class="container index">
+            <div class="bg_animation">
+                <div class="cloud">
+                    <img class="cloud01" src="image/cloud01.svg" alt="">
+                </div>
+                <div class="cloud">
+                    <img class="cloud02" src="image/cloud02.svg" alt="">
+                </div>
+                <div class="cloud">
+                    <img class="cloud03" src="image/cloud03.svg" alt="">
+                </div>
+                <div class="chick ">
+                    <!-- <img src="image/chick.svg" alt=""> -->
+                </div>
+                <div class="chick">
+                    <img class="chick_01" src="image/chick01.svg" alt="">
+                    <img class="chick_02" src="image/chick02.svg" alt="">
+                    <img class="chick_03" src="image/chick03.svg" alt="">
+                    <img class="chick_04" src="image/chick04.svg" alt="">
+                    <img class="chick_05" src="image/chick05.svg" alt="">
+                    <img class="chick_06" src="image/chick06.svg" alt="">
+                    <img class="chick_07" src="image/chick07.svg" alt="">
+                    <img class="chick_08" src="image/chick08.svg" alt="">
+                    <img class="chick_09" src="image/chick09.svg" alt="">
+                    <img class="chick_10" src="image/chick10.svg" alt="">
+                </div>
+            </div>
+            <div class="name">
+                <h1>ZNIYU LIN</h1>
+            </div>
+
+            <div class="arrow arrow_index">
+                <img class="image_arrow" src="image/arrow.svg" alt="">
+            </div>
+
+            <div class="service">
+            <span >DESIGN<br>
+            MOTION GRAPHIC<br>
+            PHOTOGRAPHIC<br>
+            </span>
+            </div>
+        </div>
+        <div class="container bg_g">
+            <div class="works_carouse owl-carousel owl-theme">
+                <div class="item"><div class="works_item" style="background-image: url(works/brand_identit/fruity.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/poster/sait.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/photographic/pure_clay.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/brand_identit/tarot.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/poster/world_records.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/brand_identit/jilin.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/photographic/my_day.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/brand_identit/goolu.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/photographic/bi_oil.jpg);"></div></div>
+                <div class="item"><div class="works_item" style="background-image: url(works/photographic/cloud_hang_over.jpg);"></div></div>
+            </div>
+
+        </div>
+        
+        <div class="nav">
+            <div class="nav_btn nav_btn_a">
+                <a class="nav_btn_abuot" href="about.html">ABOUT</a>
+            </div>
+            <div class="nav_btn nav_btn_w">
+                <a class="nav_btn_works" href="works.html">WORKS</a>
+            </div>
+            
+        </div>
+        <div class="contact">
+            <div class="contact_btn contact_btn_e">
+                <a class="contact-btn_email" href="mailto:annabella861017@gmail.com">
+                    <img src="image/message-closed-envelope.svg" alt="">
+                </a>
+            </div>
+            <div class="contact_btn contact_btn_i">
+                <a class="contact_btn_ig" href="https://www.instagram.com/zniyu225/">
+                    <img src="image/instagram.svg" alt="">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    autoplay:true,
+    autoplaySpeed:1000,
+    smartSpeed:100,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        },
+
+    }
+})
+});
+    </script>
+    
+
+
 </body>
 </html>
