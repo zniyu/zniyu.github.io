@@ -1,0 +1,117 @@
+/* Add reset */
+*{
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  
+
+/*-------------------------*/
+/* $Typography 
+---------------------------*/
+/* Globel */
+body,html{
+    font-family:  'roboto''Noto Sans TC','Helvetica','黑體-繁','微軟正黑體', arial, sans-serif;
+    cursor: url("../image/cursor.svg"),auto;
+  }
+a{
+  cursor: url("../image/New\ Piskel\ _2.png"),auto;
+}
+
+/* heading */
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+  }
+
+h1{ font-size: 36px;}
+h2{ font-size: 24px;}
+
+
+p{
+    color: #4d4d4d;
+}
+
+h1::selection, h2::selection, h3::selection,h4::selection, p::selection,div::selection, span::selection, a::selection,img::selection{color: #526CB9;}
+
+br{user-select: none;}
+
+/*-------------------------*/
+/* $Color 
+---------------------------*/
+/* background color */
+.bg-color-primary{background-color: #E4D9CD;}
+.bg-color-secondary{background-color: #526CB9;}
+.bg-color-red{background-color: #F96D5F;}
+.bg-color-green{background-color: #08BFB6;}
+.bg-color-yellow{background-color: #FFD88B;}
+.bg-color-grey{background-color: #EBEBEB;}
+
+/* text color */
+.color-primary{color: #F96D5F;}
+.color-secondary{color: #526CB9;}
+.color-black{color: #4D4D4D;}
+.color-white{color: #E4D9CD;}
+
+
+/*-------------------------*/
+/* $Grid 
+---------------------------*/
+.wrapper{
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1172px;    
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.row{
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.col-1-1 , .col-1-2 , .col-1-3 , .col-1-4, .col-1-5, .col-4-5{
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+
+.col-1-1  { width: 100% }
+.col-2-3  { width: 66.66666%;}
+.col-1-2  { width: 50% }
+.col-1-3  { width: 33.33333% }
+.col-1-4  { width: 25% }
+.col-1-5  { width: 20% }
+.col-4-5  { width: 80% }
+
+
+.u-clearfix:before,
+.u-clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.u-clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+
+/*-------------------------*/
+/* $Utility
+---------------------------*/
+
+.u-push-right{float: right !important;}
+.u-pull-left{float: left !important;}
+
+.u-text-center{text-align: center !important;}
+.u-text-right{text-align: right !important;}
+.u-text-left{text-align: left !important;}
