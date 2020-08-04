@@ -274,7 +274,7 @@
 }
 
 .contact_btn{
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Source Serif Pro', 'Time New Roman' !important;
     font-size: 50px;
     line-height: 20vh;
     transition: all 0.5s ease-in-out;

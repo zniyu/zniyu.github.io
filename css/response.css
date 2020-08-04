@@ -28,7 +28,7 @@
     h2, .about_content{ font-size: 12px;}
 
     /* navber */
-    .nav__btn{font-size:20px; padding: 1em 1.4em;}
+    .nav__btn, .nav__text{font-size:20px; padding: 1em 1.6em;}
     .nav__btn_text{display: none;}
 
 
@@ -36,6 +36,7 @@
     .main_heading, .main_content{left: 10%;}
     .main_content{ line-height: 20px;}
     .social_nav_btn{ left: 25%;}
+    .social_btn { padding-right: 40px;}
 
     /* circles */
     .m_c_yellow{top: 80%;}
@@ -67,4 +68,3 @@
     .skill_header{ font-size: 18px; text-align: center;}
   
 }
-
