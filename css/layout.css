@@ -11,12 +11,10 @@
 ---------------------------*/
 /* Globel */
 body,html{
-    font-family:  'roboto''Noto Sans TC','Helvetica','黑體-繁','微軟正黑體', arial, sans-serif;
-    cursor: url("../image/cursor.svg"),auto;
+    font-family:'Noto Sans TC', 'roboto','Helvetica', 'arial','黑體-繁','微軟正黑體', 'sans-serif';
+
   }
-a{
-  cursor: url("../image/New\ Piskel\ _2.png"),auto;
-}
+
 
 /* heading */
 h1,h2,h3,h4,h5,h6{

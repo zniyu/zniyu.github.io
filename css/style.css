@@ -23,6 +23,10 @@
 .c_5{left: 60%;}
 .c_6{left: 80%;}
 
+.cv{
+    width: 100vw;
+}
+
 /*-------------------------*/
 /* $ NAVBAR
 ---------------------------*/
@@ -167,7 +171,7 @@
     font-size: 14px;
 }
 .work_header{
-    font-family: 'Source Serif Pro', serif !important;
+    font-family: 'Source Serif Pro', 'Time New Roman' !important;
     font-size: 32px;
     position: absolute;
     text-align: left;
@@ -274,14 +278,22 @@
     font-size: 50px;
     line-height: 20vh;
     transition: all 0.5s ease-in-out;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .contact_btn:hover{
     color: #526CB9;
 }
 
-.social_btn{padding-right: 64px;}
+.social_btn{
+    padding-right: 64px;
+}
+
+.social_nav_btn{
+    cursor: pointer;
+}    
+
+
 
 .toTop{width: 64px;}
 
@@ -306,21 +318,21 @@
 
 
 .main_about{
-    margin: 28vh 0;
+    margin: 30vh 0;
 }
 
 .about_me{
-    padding: 5vh 0;
     margin: 0 28px;
 
 }
 
 .my_gif > img{
-    width: 500px;
+    width: 80%;
+
 }
 
 .about_header{
-    font-size: 36px;
+
     line-height: 90px;
 }
 .about_content{
@@ -336,7 +348,7 @@
     border: 1px #526CB9 solid;
     border-radius: 999em;
     line-height: 20px;
-    padding: 20px 50px;
+    padding: 15px 50px;
     overflow: hidden;
     cursor: pointer;
 
@@ -386,6 +398,7 @@
 .skill_row{
     vertical-align: top;
     margin: 56px;
+
 }
 .skill_row_1{
     margin-top: 12vh;
