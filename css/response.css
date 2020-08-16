@@ -1,0 +1,85 @@
+
+@media (max-width: 1024px) {
+    .skill_icon{width: 60%;}
+}
+
+
+
+@media (max-width: 768px) {
+     /* text */
+     h1{ font-size: 30px;}
+     h2, .about_content{ font-size: 12px;}
+
+     .wave_btn{ padding: 10px 40px;}
+
+
+     
+}
+
+@media (max-width: 600px) {
+
+    /* layout */
+
+    .sm_col-1-1{width: 100%;}
+
+
+    /* text */
+    h1{ font-size: 30px;}
+    h2, .about_content{ font-size: 12px;}
+
+    /* navber */
+    .nav__btn, .nav__text{font-size:20px; padding: 1em 1.4em;}
+    .nav__btn_text{display: none;}
+
+
+    /* main */
+    .main_heading, .main_content{left: 10%;}
+    .main_content{ line-height: 20px;}
+    .social_nav_btn{ left: 25%;}
+    .social_btn { padding-right: 40px;}
+
+    /* circles */
+    .m_c_yellow{top: 80%;}
+    .circle{width: 30px;height: 30px;}
+
+    /* works */
+    .work_img { width: 100%;height: 240px;}
+    .work_img_sait{ margin-right: 0;}
+
+    .work_header{bottom: 10%;left: 10%;}
+    .work_header_bio{top: unset;}
+    .work_line, .work_number{display: none;}
+
+    /* contact */
+
+    .contact_btn{ font-size: 28px;}
+    .toTop{ width: 50px;}
+
+
+    /* about */
+    .my_gif > img{ width: 100%;}
+    .main_about{margin-top: 10vh;}
+
+
+    .wave_btn{ padding: 10px 40px;}
+    .wave_btn::before{ display: none;}
+
+    .skill_icon{ width: 40%; margin: 20px;left: 23%;}
+    .skill_header{ font-size: 18px; text-align: center;}
+  
+}
+
+@media (max-width: 375px) {
+
+    .social_nav_btn{ left: 20%;}
+    .nav__btn, .nav__text{padding: 1em 1em;}
+
+}
+
+@media (max-width: 320px) {
+
+    .social_nav_btn{ left: 15%;}
+    .contact_btn{ font-size: 24px;}
+    .about_content{ letter-spacing: .5px;}
+
+}
