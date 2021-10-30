@@ -222,16 +222,34 @@
     right: 34%;
 }
 
-/* 03 Fruity Say */
+
+/* 03 Yuntech Lirary */
+
+.work_img_yuntech{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(255,255,255,0.3);
+    background-image: url(../image/md_work_yuntech.png);
+}
+.sort_yuntech, .work_img_yuntech{margin-left: 100px;}
+
+.work_header_yuntech{
+    bottom: 20%;
+    left: 50%;
+}
+
+
+
+/* 04 Fruity Say */
 .work_img_fruity{
     height: 400px;
     width: 600px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.2);
     background-image: url(../image/md_work_fruity_say.jpg);
 }
 .work_header_fruity{
     bottom: 20%;
-    left: 50%;
+    left: 43%;
 }
 
 /* 04 Salt */
@@ -243,22 +261,30 @@
 }
 .work_header_salt{
     bottom: 20%;
-    right: 30%;
+    left: 35%;
 }
 
-/* 03 Fruity Say */
+.sort_salt, .work_img_salt{margin-left: 50px;}
+
+
+
+/* 06 goolu */
 .work_img_goolu{
     height: 300px;
     width: 450px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-image: url(../image/md_work_goolu.jpg);
 }
 .work_header_goolu{
     bottom: 10%;
-    left: 38%;
+    left: 55%;
 }
 
-.sort_sait, .work_img_sait{margin-right: 100px;}
+
+
+
+
+
 
 /*-------------------------*/
 /* $ CONTACT
