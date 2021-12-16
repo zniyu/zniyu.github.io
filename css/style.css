@@ -32,7 +32,8 @@
 .nav__btn{
     font-size: 36px;
     padding: 1em 1em;
-    line-height: 32px;
+    line-height: 24px;
+    text-align: center;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
@@ -84,12 +85,14 @@
 .social_nav_btn{
     left: 40%;
     padding: 16px;
-    letter-spacing: 1px;
+    text-align: center;
+    letter-spacing: 0;
     color: rgba(82, 108, 185, 0.5);
     transition: all 0.3s ease-in-out;
 }
 .social_nav_btn:hover{
     color: rgba(82, 108, 185, 1);
+    letter-spacing: 0.2px;
 }
 
 
